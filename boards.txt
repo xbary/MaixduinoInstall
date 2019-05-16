@@ -57,7 +57,8 @@ m1.build.ldscript={runtime.platform.path}/cores/arduino/kendryte-standalone-sdk/
 ############### Sipeed Maix Go Board ###############
 
 go.name = Sipeed Maix Go Board
-
+go.menu.uploadtool=kflash_py
+go.menu.uploadtool.kflash_py=kflash_py
 
 ## Toolchain
 go.menu.toolsloc.default=Default

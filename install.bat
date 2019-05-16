@@ -6,6 +6,8 @@ echo "**************************************************************************
 
 %~d1
 cd %1
+mkdir libraries > nul
+mkdir hardware > nul
 cd hardware
 mkdir Maixduino > nul
 cd Maixduino
