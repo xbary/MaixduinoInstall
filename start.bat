@@ -1,2 +1,2 @@
 @echo off
-install d:\VMicro c:\python37
+install c:\works c:\python37
