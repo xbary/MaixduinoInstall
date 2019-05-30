@@ -2,6 +2,7 @@ menu.clksrc=CPU Clock Frequency
 menu.burn_tool_firmware=Burn Tool Firmware
 menu.burn_baudrate=Burn Baud Rate
 menu.toolsloc=Tool Install Location
+menu.uploadtool=Upload Tool
 
 ##################################################
 ############# Sipeed M1 Dock Board ###############
@@ -45,8 +46,8 @@ m1.build.board=BOARD_SIPEED_MAIX_ONE_DOCK
 m1.build.sdata.size=512
 
 ## This selects the tool from "programmers.txt"
-m1.program.tool=kflash
-m1.upload.tool=kflash
+m1.program.tool=kflash_py
+m1.upload.tool=kflash_py
 
 ## Limit is the 16MB Flash. Assume half is used for something else.
 m1.upload.maximum_size=8388608
@@ -94,8 +95,8 @@ bit.build.board=BOARD_SIPEED_MAIX_BIT
 bit.build.sdata.size=512
 
 ## This selects the tool from "programmers.txt"
-bit.program.tool=kflash
-bit.upload.tool=kflash
+bit.program.tool=kflash_py
+bit.upload.tool=kflash_py
 
 ## Limit is the 16MB Flash. Assume half is used for something else.
 bit.upload.maximum_size=8388608
@@ -144,8 +145,8 @@ go.build.core=arduino
 go.build.board=BOARD_SIPEED_MAIX_GO
 
 ## This selects the tool from "programmers.txt"
-go.program.tool=kflash
-go.upload.tool=kflash
+go.program.tool=kflash_py
+go.upload.tool=kflash_py
 
 ## Limit is the 16MB Flash. Assume half is used for something else.
 go.upload.maximum_size=8388608
@@ -194,8 +195,8 @@ mduino.build.board=BOARD_SIPEED_MAIX_DUINO
 mduino.build.sdata.size=512
 
 ## This selects the tool from "programmers.txt"
-mduino.program.tool=kflash
-mduino.upload.tool=kflash
+mduino.program.tool=kflash_py
+mduino.upload.tool=kflash_py
 
 ## Limit is the 16MB Flash. Assume half is used for something else.
 mduino.upload.maximum_size=8388608
